@@ -2,8 +2,8 @@
 require_once "../app/models/Model.php";
 require_once "../app/models/User.php";
 require_once "../app/controllers/UserController.php";
-require 'app/controllers/PostController.php';
-require 'app/models/Post.php';
+require_once "../app/controllers/PostController.php";
+require_once "../app/models/Post.php";
 
 //set our env variables
 $env = parse_ini_file('../.env');
